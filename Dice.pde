@@ -17,7 +17,7 @@ void draw()
       bob.show();
     }
   }
-  System.out.println(counter);
+  
   fill(255);
   text("sum: " + counter, 200, 390);
   counter = 0;
