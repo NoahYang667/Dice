@@ -56,7 +56,7 @@ class Die //models one single dice cube
   void show()
   {
     fill(220, 0, 0);
-    square(myX, myY, 50);
+    rect(myX, myY, 50 , 50);
 
     if (random == 1) {
       fill(255);
